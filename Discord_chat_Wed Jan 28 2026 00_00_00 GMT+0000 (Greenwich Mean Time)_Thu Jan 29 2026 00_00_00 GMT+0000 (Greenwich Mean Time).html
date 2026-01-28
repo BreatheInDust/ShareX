@@ -1,0 +1,1554 @@
+
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Discord Chat Export</title>
+        <style>
+          body {
+            font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #36393f;
+            color: #dcddde;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+          }
+          .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid;
+            height: 100%;
+            overflow: auto;
+            flex: 1;
+            border-radius: 6px;
+          }
+          .chatTitle {
+            background-color: #2f3136;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+          }
+          .chatTitle img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            margin-right: 20px;
+          }
+          .titleInfo p {
+            margin: 5px 0;
+          }
+          .titleInfo p:first-child {
+            font-size: 24px;
+            font-weight: bold;
+          }
+          .chatContent {
+            background-color: #36393f;
+            border-radius: 8px;
+            padding: 0;
+            margin: 0;
+          }
+          .chatContent li {
+            list-style: none;
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+          }
+          .chatContent li:hover {
+            background-color: #32353b;
+          }
+          .chatContent .titleImg {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 16px;
+          }
+          .messageContent {
+            flex-grow: 1;
+          }
+          .chatName {
+            color: #fff;
+            font-weight: 500;
+            margin-right: 8px;
+          }
+          .time {
+            color: #72767d;
+            font-size: 0.75rem;
+          }
+          .chatContent p {
+            margin: 8px 0;
+          }
+          .attachment {
+            margin-top: 12px;
+            max-width: 100%;
+          }
+          .image-attachment img {
+            max-width: 400px;
+            max-height: 300px;
+            border-radius: 4px;
+          }
+          .video-attachment video,
+          .audio-attachment audio {
+            max-width: 400px;
+          }
+          .file-attachment a {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #2f3136;
+            border-radius: 4px;
+            color: #00b0f4;
+            text-decoration: none;
+            font-size: 0.9em;
+          }
+          .file-attachment a:hover {
+            background-color: #393c43;
+          }
+          .sameSender {
+            margin-top: -16px;
+          }
+          .sameSender .titleImg, .sameSender .chatName, .sameSender .time {
+            display: none;
+          }
+        </style>
+      </head>
+      <body>
+        <p style="text-align: center; font-size: 15px;">Export 156 message(s)</p>
+        <div class="container">
+          <div class="chatTitle">
+            <img src="https://static-global.zingfront.com/extension/avator.png" alt="">
+            <div class="titleInfo">
+              <p>...</p>
+              <p>...</p>
+              <p style="font-size: 15px;">从 Wed Jan 28 2026 00:00:00 GMT+0000 (Greenwich Mean Time) 到 Thu Jan 29 2026 00:00:00 GMT+0000 (Greenwich Mean Time)</p>
+            </div>
+          </div>
+          <ul class="chatContent">
+            
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:46:45 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Shareholders</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:46:45 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:47:03 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> 2fa blocked me contacted rbx support</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:47:11 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> said i should get access later</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:47:23 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Alr</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 14:47:25 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> we cant login colm we need security shit like that</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 14:47:27 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Ok</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:47:33 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> fixing it</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 14:47:43 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> NO SWEARING</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 14:47:50 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> so we all agreed im taking the robux?</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:47:55 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Yh</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 14:47:55 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Yeah</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:48:12 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> no?</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:48:21 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> ok</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:48:22 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Can I like take stuff</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:48:37 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> i'm going to take 20% of the robux, guaranteed.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 14:48:45 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@ethanio_skibidi_04440#0</span> like what in-game stuff?</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:48:57 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> jamie takes 80% unless any of you want some</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:48:58 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@jamcarsigma_22106#0</span> Yh sure</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:49:07 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> seth is taking all grow a garden stuff</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:49:13 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Alr</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:49:22 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> naeto acting like he knows the password and pretending to be a shareholder.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 14:49:27 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> yeah thats good</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:49:33 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> i'm taking anything i can.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:49:34 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> I'm crine</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:49:46 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> can we settle on different games.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:49:57 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Alright</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:50:04 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> i want everything in the strongest battlegrounds and other games.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 14:50:17 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> i dont rly care about in-game i just want robux</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:50:32 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> here's our ticket</p>
+          <div class="attachment file-attachment">
+              <a href="https://cdn.discordapp.com/attachments/1466082074069831742/1466083028647411795/Roblox_Support_Ticket_158194908.eml?ex=697b73b8&is=697a2238&hm=16c61cdf91b5dfb6e3c4a5ae889e129d79a4cac3ea9f6ba472ec303e7e4c6d56&" target="_blank" rel="noopener noreferrer">
+                📎 Roblox_Support_Ticket_158194908.eml?ex=697b73b8&is=697a2238&hm=16c61cdf91b5dfb6e3c4a5ae889e129d79a4cac3ea9f6ba472ec303e7e4c6d56&
+              </a>
+            </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:50:52 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> download if u want its js a confirmation email</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 14:51:09 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> son im crine its it might harm my friggin dewice</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:51:37 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> it's a .eml file</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:51:42 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> thats short for email</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:51:54 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> It's a son I'm crine file</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:53:06 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> guys if we start selling shares then we need to agree. only the people who are in the group right now (me, ethan, jamie, max, seth, jake) are getting the money if somebody joins and then another person joins and another person after that only us 6 make the money equally.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:53:44 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Alright sounds good to me</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 14:53:45 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> "Anyone new to my stream, calc is short for calculator btw. by the way"btw" is "short by the way"</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:54:27 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> thumb up that message if you agree if you dont get the fuck out</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1355637375308664862/45776e40c73f7336128a93b2b7eb0c9d.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">ethanio_skibidi_04440</span><span class="time">Wed Jan 28 2026 14:54:44 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> I did</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:55:21 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@doohickethmale#0</span> <@1408553714293407774></p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:55:25 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> need you to</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 14:55:30 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:01:40 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> guys anybody want to take anything else?</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:01:43 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> or is that it?</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:01:56 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> i'll take anything in any game i can.</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:04:25 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@zboss2323#0</span> </p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:07:22 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> guys</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:07:27 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> @everyone</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:07:33 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> @everyone</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:07:37 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> fuuhhhhck</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:07:44 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> we have to use r15 now</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:07:49 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> omfg</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:07:51 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1466082074069831742/1466087384859938916/image.png?ex=697b77c7&is=697a2647&hm=792423c71871ecbd7063f1f52703001e140f6ce90fe46223041a094cfcd4bffe&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:09:28 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> > the third point is All Classic Head and Face combinations will be replaced with a corresponding Dynamic Head in Feburary 2026. The Classic Heads and Classic Faces will then be removed from the Martketplace.</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:15:42 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> oh yeah and chris literally just got hacked</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:15:45 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1466082074069831742/1466089374465921281/image.png?ex=697b79a1&is=697a2821&hm=46e2fce7b58067493183bb90bd5da17a31716a81730ddecac25bf618bfc73db2&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:15:53 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> he's still spamming it in ever group</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:21:29 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Yooo</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385952940828918041/41f0ed0546e17940e56469093a2629f2.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jakethecake0760_71657</span><span class="time">Wed Jan 28 2026 15:21:37 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> huh</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:21:40 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Guys it doesn't work to log in</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:21:45 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Anybody know verification?</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385952940828918041/41f0ed0546e17940e56469093a2629f2.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jakethecake0760_71657</span><span class="time">Wed Jan 28 2026 15:22:39 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> gng its roblox u dont need to sign into bros account for grow a garden</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:23:02 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> I can't log in to the account</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:23:10 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> You need a verification code or email</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:23:19 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Or whatever you need have you even tried yet?</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:24:18 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> ??</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 15:24:20 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:26:11 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:26:22 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@sethiscool2303#0</span> still working on it</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:27:18 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> SharesX</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:27:18 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:27:47 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@sethiscool2303#0</span> <@1385298186759045272></p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:34:26 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> @everyone</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:34:35 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> what shares do you want</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:34:46 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> i want 47%</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:35:10 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> in fact, i'll take 47% when i get the password.</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:35:35 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@doohickethmale#0</span> <@1408553714293407774></p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:35:39 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> how much you taking</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 15:35:46 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> What</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:36:33 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> how much percantage of shares do you own.</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:37:32 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> you can have 12%</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:37:36 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@jamcarsigma_22106#0</span> <@1385298804940607519></p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:37:39 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> you can take 15%</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:38:02 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@ethanio_skibidi_04440#0</span> <@1355637375308664862> takes 9%</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:38:15 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@jakethecake0760_71657#0</span> <@1385952940828918041> takes 7%</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 15:38:32 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Uncle I just want access to the acc</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:38:57 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> ok</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:39:07 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@sethiscool2303#0</span> <@1385298186759045272> gets 6%</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:39:28 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> and zeyad has free shares so he gets 0.25%</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:42:51 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> that leaves 3.75% shares for intersted parties</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:53:53 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> anybody want to buy 3.75% extra shares?</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:54:10 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> i'll take them if nobody else does</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 15:54:19 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> I already payed to even have the acc</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:54:33 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> the more shares, the more access and the more stuff you get in the accound</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:54:39 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@doohickethmale#0</span> yeah but you can buy more</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:54:48 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> you bought 2 euro in shares</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 15:54:56 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> 1</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:55:05 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> it was 2</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:55:11 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> i saw it in jamcar's hand]</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:55:19 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> anyways doesnt matter</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:55:27 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> you bought 12%</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 15:55:29 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> I payed one euro and i gave it to ethan son I'm crine</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:55:54 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> well do you want 3.75% extra?</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 15:56:00 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> <@1349080809570832384> this isnt a friggin work meeting im crine</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:56:00 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> that's 15.75%</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 15:56:07 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Ok</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:56:13 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@jamcarsigma_22106#0</span> no i know im just asking</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:57:30 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> ok max you owe me ethan, jamie, seth and jake 10 cent each</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:57:55 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@doohickethmale#0</span> <@1408553714293407774></p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 15:58:04 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> you can send it to me and jamie on revolut</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:00:12 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> until you pay we cant guarantee your percentage</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1408553714293407774/6a0ccc845a2713dc53c2767c0600a215.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">doohickethmale</span><span class="time">Wed Jan 28 2026 16:13:37 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Why do I owe anything what</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:20:23 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> because you bought 3.75% more shares.</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:20:26 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> but sorry.</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:20:31 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> someone took them</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:20:37 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> in exchange for brainrots</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:20:52 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@harkin11#0</span> </p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:21:04 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> here is our new shareholder.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:21:21 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> Your alt</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:21:32 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> nope.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:21:51 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> yes</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:22:01 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> what makes you think that</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:22:34 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@jamcarsigma_22106#0</span> </p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1466082074069831742/1466106187534696632/image.png?ex=697b894a&is=697a37ca&hm=504696611ff7f35f026811901b4bd54b8839fc061b1e3f71c9d21f4c19a36eec&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:22:44 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> see?</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:22:45 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Becuase your previous alts had the same name font and also most of them had no pfp</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 16:22:54 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Hello</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:23:05 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> ok but this is my snapchat convo with the shareholder</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 16:23:13 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Wait guys</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:23:16 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> acbnacjkbnacjklnCn caicaijcacjacjiacijaciacijacijacija</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 16:23:19 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Is anybody even in the account?</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:23:39 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> not yet, we're waiting.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 16:23:46 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> What do you guys waiting for?</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:23:54 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> also why couldnt we just split it normally cux all thid id kinda off track</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 16:24:03 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> We need verification code..</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:24:06 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@sethiscool2303#0</span> roblox support</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385952940828918041/41f0ed0546e17940e56469093a2629f2.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jakethecake0760_71657</span><span class="time">Wed Jan 28 2026 16:24:24 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> jamie vc now</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:24:26 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@sethiscool2303#0</span> can you ask dakshesh for to check his email and get dc back</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:24:27 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385952940828918041/41f0ed0546e17940e56469093a2629f2.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jakethecake0760_71657</span><span class="time">Wed Jan 28 2026 16:24:30 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> 🥺</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://static-global.zingfront.com/extension/avator.png" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">harkin11</span><span class="time">Wed Jan 28 2026 16:28:25 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Oh  nvm</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:28:32 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> see jamie</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:28:34 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> not my alt</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:28:41 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@harkin11#0</span> hello.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://static-global.zingfront.com/extension/avator.png" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">harkin11</span><span class="time">Wed Jan 28 2026 16:28:46 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> hai</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:29:16 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@harkin11#0</span> Shut the friggin frig up</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://static-global.zingfront.com/extension/avator.png" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">harkin11</span><span class="time">Wed Jan 28 2026 16:29:27 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> .</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:29:43 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@jamcarsigma_22106#0</span> what are talking about</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:29:54 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> it's a shareholder.</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://static-global.zingfront.com/extension/avator.png" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">harkin11</span><span class="time">Wed Jan 28 2026 16:31:31 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1466082074069831742/1466108443638104240/9f577d37-0bfd-4a6a-b622-4198177a4b42.png?ex=697b8b63&is=697a39e3&hm=3960fff6013ffb158ee4af995f621e3f4e01806ad29ab01dcd14d91c55bcc31f&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:32:53 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@unbeatablepitchfork39#0</span> He said "Hai" so there a femboy</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:33:02 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@jamcarsigma_22106#0</span> its not a he</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298804940607519/af605157f611f476b9bd868b54751c6a.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">jamcarsigma_22106</span><span class="time">Wed Jan 28 2026 16:33:09 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> mb</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1385298186759045272/54188f23475da8e5d6a004125fdcf7eb.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">sethiscool2303</span><span class="time">Wed Jan 28 2026 16:33:32 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> Hello</p>
+          
+        </div>
+      </li>
+    
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:33:50 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;">@harkin11#0</span> <@1466103667420827894></p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/1349080809570832384/54f1401e64609fb1d70c55e82123f189.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">unbeatablepitchfork39</span><span class="time">Wed Jan 28 2026 16:34:01 GMT+0000 (Greenwich Mean Time)</span></p>
+          <p><span style="color: skyblue;"></span> what do you want in the account?</p>
+          
+        </div>
+      </li>
+    
+          </ul>
+        </div>
+
+      </body>
+      </html>
+    
